@@ -9,4 +9,16 @@ Created for an assignment in a Python workshop hosted by Simon Fraser University
 
 # How to Run?
 
+Option 1: Open in Google Colab
+
+- This code can be opened and run online via Google Colab by going to the .pynb file and clicking the "Open in Colab" button at the top.
+
+Option 2: Open in VSCode
+
+- This code can also be opened and run locally via VSCode. Make sure you have Python installed.
+ 1. Download the .py file.
+ 2. Open the folder with the file in the terminal. 
+ 3. Run the code by entering the following in the terminal:
+    - `python .\pinwheel_animation.py`
+  
 
