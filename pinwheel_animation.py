@@ -1,32 +1,36 @@
-import ColabTurtlePlus.Turtle as t
-
+import turtle
 import time
 
-t.initializeTurtle()
-t.speed(10)
-t.bgcolor("black")
+window = turtle.Screen()
+window.title("Pinwheel")
+
+pinwheel = turtle.Turtle()
+pinwheel.speed(10)
+window.bgcolor("black")
 
 colors = ["violet","indigo","blue","green","yellow","orange","red","pink"]
 
-t.right(30)
+pinwheel.right(30)
 
 def y():
   for c in colors:
     time.sleep(1)
-    t.color(c)
-    t.forward(80)
-    t.left(90)
-    t.forward(80)
-    t.left(135)
-    t.forward(113)
-    t.left(180)
+    pinwheel.color(c)
+    pinwheel.forward(80)
+    pinwheel.left(90)
+    pinwheel.forward(80)
+    pinwheel.left(135)
+    pinwheel.forward(113)
+    pinwheel.left(180)
 
 y()
 
-t.color("grey")
-t.penup()
-t.right(60)
-t.forward(95)
-t.pendown()
-t.width(3)
-t.forward(200)
+pinwheel.color("grey")
+pinwheel.penup()
+pinwheel.right(60)
+pinwheel.forward(95)
+pinwheel.pendown()
+pinwheel.width(3)
+pinwheel.forward(200)
+
+turtle.done()
