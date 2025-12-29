@@ -1,4 +1,3 @@
-!pip3 install ColabTurtlePlus
 import ColabTurtlePlus.Turtle as t
 
 import time
