@@ -11,7 +11,7 @@ Created for an assignment in a Python workshop hosted by Simon Fraser University
 
 Option 1: Open in Google Colab
 
-- This code can be opened and run online via Google Colab by going to the .pynb file and clicking the "Open in Colab" button at the top.
+- This code can be opened and run online via Google Colab by going to the .ipynb file and clicking the "Open in Colab" button at the top.
 
 Option 2: Open in VSCode
 
@@ -20,5 +20,3 @@ Option 2: Open in VSCode
  2. Open the folder with the file in the terminal. 
  3. Run the code by entering the following in the terminal:
     - `python .\pinwheel_animation.py`
-  
-
